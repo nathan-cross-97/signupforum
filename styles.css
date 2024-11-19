@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.background-image{
+    flex: 1;
+    background-image: url("/leaves.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-credit {
+    margin-top: auto;
+    padding: .5rem;
+}
+
+.logo {
+    background-color: black;
+    width: 100%;
+    padding: 1rem;
+    opacity: .5;
+    padding: 1rem;
+    margin-top: 100px;
+    height: 20vh;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 8rem;
+
+}
+
+
+.odin {
+    color:white;
+    font-family: "Skranji", Arial;
+
+}
+
+.right-section {
+    flex: 1;
+    width: 65vh;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    height: 40vh;
+    background-color: #f8f9fa;
+    flex: 1;
+    width: 100vh;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header h1 {
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    max-width: 55ch;
+}
+
+.footer {
+    height: 30vh;
+    background-color: #f8f9fa;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;    
+    gap: 1rem;
+}
+
+
+form{
+    background-color: white;
+    padding: 1rem 2rem;
+    box-shadow: rgb(169, 169, 169) 0px 5px 5px -5px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.row{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 2rem;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+button{
+    align-self: flex-start;
+    background-color: rgba(41, 72, 41, 0.814);
+    padding: 1rem 3rem;
+    border: 0;
+    border-radius: .5rem;
+    width: fit-content;
+    box-shadow: 2px 2px 10px -5px black;
+
+    font-size: 1rem;
+    font-weight: bold;
+    color:white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgba(41, 72, 41, 0.7);
+}
+
+a {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+    
+}

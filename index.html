@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Forum</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Skranji:wght@400;700&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="background-image">
+        <div class="logo">
+            <img src="odin-lined.png" alt="Odin Project Logo">
+            <h1 class="odin">ODIN</h1>
+        </div>
+        <p class="photo-credit">Photo by Halie West on Unplash</p>
+    </div>
+    
+    <div class="right-section">
+        <div class="header">
+            <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. 
+                Sign up <em>now</em> to get started.</h2>
+            <h2>You know you want to.</h2>
+        </div>
+        
+        
+        <form method="post" action="https://httpbin.org/post" id="sign-up-form">
+            <h3> Let's do this!</h3>
+
+            <div class="row">
+                <div class="form-group">
+                    <label for="user_first_name">FIRST NAME</label>
+                    <input type="text" id="user_first_name" name="first_name" required>
+                    <span></span>
+                </div>
+                <div class="form-group">
+                    <label for="user_last_name">LAST NAME</label>
+                    <input type="text" id="user_last_name" name="last_name" required>
+                    <span></span>
+                </div>
+            </div>
+            <div class = "row">
+                <div class="form-group">
+                    <label for="user_email">EMAIL</label>
+                    <input type="email" id="user_email" name="email" required>
+                    <span></span>
+                </div>
+                <div class="form-group">
+                    <label for="user_phone_number">PHONE NUMBER</label>
+                    <input type="text" id="user_phone_number" name="phone_number" required>
+                    <span></span>
+                </div>
+            </div>
+            <div class = "row">
+                <div class="form-group">
+                    <label for="user_password">PASSWORD</label>
+                    <input type="text" id="user_password" name="password" required>
+                    <span></span>
+                </div>
+                <div class="form-group">
+                    <label for="user_confirm_password">CONFIRM PASSWORD</label>
+                    <input type="text" id="user_confirm_password" name="confirm_password" required>
+                    <span></span>
+                </div>
+            </div>
+        </form> 
+
+        <div class="footer">
+            <button forum="sign-up-forum" type="submit">Create Account</button>
+            <p>Already have an account?</p> <a href="https://www.example.com">Log In</a>
+        </div>
+    </div>
+
+</body>
+</html>
